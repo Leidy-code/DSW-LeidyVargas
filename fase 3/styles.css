@@ -1,0 +1,43 @@
+html {
+    box-sizing:border-box ;
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    column-gap: 2rem;
+}
+
+*,*::before, *::after {
+box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: burlywood solid;
+}
+
+img {
+    max-width: 100%;
+    border: 3px black;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.entrada-blog a {
+    display: inline block;
+    background-color: #90e0ef;
+    color: black;
+   
+}
+
+.entrada-blog iframe {
+    border-color: aqua;
+}
